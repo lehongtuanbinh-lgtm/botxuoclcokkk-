@@ -1,0 +1,26 @@
+{
+  "name": "thor-ai-vip-pro",
+  "version": "4.2.0",
+  "description": "THOR AI VIP PRO - Sửa lỗi đặt cược, tích hợp API lịch sử gốc, chính xác cao",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "engines": {
+    "node": "20.x"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.66.0",
+    "socket.io-client": "^4.7.5",
+    "axios": "^1.7.9",
+    "crypto-js": "^4.2.0",
+    "js-base64": "^3.7.7",
+    "express": "^4.18.2",
+    "moment-timezone": "^0.5.45",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
